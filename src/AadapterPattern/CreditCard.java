@@ -1,9 +1,9 @@
 package AadapterPattern;
 
-public class CreditCard 
+public interface CreditCard 
 {
-	
-	
+	public void giveBankDetails();
+	public String getCreditCard();
 	
 
 }
